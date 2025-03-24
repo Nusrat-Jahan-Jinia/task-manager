@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* to do task scroll */
+.todoTask::-webkit-scrollbar {
+  width: 4px;
+}
+.todoTask::-webkit-scrollbar-track {
+  background: #6c757d;
+}
+.todoTask::-webkit-scrollbar-thumb {
+  background: #bfc2c4;
+  border-radius: 4px;
+}
+.todoTask::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* doing task flow */
+.doingTask::-webkit-scrollbar {
+  width: 4px;
+}
+.doingTask::-webkit-scrollbar-track {
+  background: #f0ad4e;
+}
+.doingTask::-webkit-scrollbar-thumb {
+  background: #be8d48;
+  border-radius: 4px;
+}
+.doingTask::-webkit-scrollbar-thumb:hover {
+  background: #674d27;
+}
+/* done task flow */
+.doneTask::-webkit-scrollbar {
+  width: 4px;
+}
+.doneTask::-webkit-scrollbar-track {
+  background: #14A44D ;
+}
+.doneTask::-webkit-scrollbar-thumb {
+  background: #2d7048;
+  border-radius: 4px;
+}
+.doneTask::-webkit-scrollbar-thumb:hover {
+  background: #3e8a5d;
+}
